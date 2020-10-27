@@ -13,14 +13,15 @@ In today session we were introduced to git/github, we were shown a quick demo on
 
 2.2 - 27/10/2020
 
-2.2.4
+During this lesson we learnt about applying CSS and how it loads in a browser. I've added a couple of notes below as a reminder:
+
 
 IDs are for anything that is only used in a webpage once ie header, footer
 
 Lots of elements can have the same class 
 
-2.3
 
 Inline and Blocks
+A block-level HTML element will always create a new line after the closing tag, whereas an inline HTML element will not. ... So, no matter how you organize your HTML, block-level elements always create a new line. With an inline element, there is never a new line.
 
-Divs - division of code 
+Divs - division of code. These can be used a lot to set up classes for different elements

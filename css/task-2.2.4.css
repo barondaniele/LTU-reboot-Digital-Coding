@@ -1,0 +1,72 @@
+img {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+p { 
+    max-width: 600px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+p em { 
+    font-size: 40px;
+    color: pink;
+    background: black;
+}
+
+p strong { 
+    font-size: 30px;
+    color: yellow;
+    background: black;
+}
+
+h1 { 
+    color: white;
+    background-color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 { 
+    color: white;
+    background-color: red ;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+h3 {
+    color: white;
+    background-color: purple ;
+}
+
+h4 { 
+    color: white;
+    background-color: orange ;
+}
+
+h5 { 
+    color: white;
+    background-color: blue ;
+}
+
+h6 { 
+    color: white;
+    background-color: pink ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-left: 10px;
+    height: 40px;
+    max-width: 600px;
+
+}
+
+li {
+    background-color: black;
+    color: white;
+    max-width: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+

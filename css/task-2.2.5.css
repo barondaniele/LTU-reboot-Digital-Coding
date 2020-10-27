@@ -70,3 +70,22 @@ li {
 }
 
 
+.black {
+    background-color: black;
+    color: white;
+}
+
+.black em {
+    background-color: yellow;
+}
+
+
+.red strong {
+    background-color: red;
+    font-size: 50px;
+}
+
+.red {
+    background-color: rgb(255, 47, 134);
+    color: white ;
+}

@@ -11,8 +11,16 @@ Reflection
 In today session we were introduced to git/github, we were shown a quick demo on the advantages using vscode. We installed an extension onto vscode. We have done an intro demo of how to commit changes in files to a repo that we cloned onto our machine.
 
 
+2.2 - 27/10/2020
+
 2.2.4
 
 IDs are for anything that is only used in a webpage once ie header, footer
 
 Lots of elements can have the same class 
+
+2.3
+
+Inline and Blocks
+
+Divs - division of code 

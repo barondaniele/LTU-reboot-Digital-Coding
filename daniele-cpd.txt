@@ -18,3 +18,9 @@ In today session we were introduced to git/github, we were shown a quick demo on
 IDs are for anything that is only used in a webpage once ie header, footer
 
 Lots of elements can have the same class 
+
+2.3
+
+Inline and Blocks
+
+Divs - division of code 

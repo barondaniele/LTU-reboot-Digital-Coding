@@ -25,3 +25,7 @@ Inline and Blocks
 A block-level HTML element will always create a new line after the closing tag, whereas an inline HTML element will not. ... So, no matter how you organize your HTML, block-level elements always create a new line. With an inline element, there is never a new line.
 
 Divs - division of code. These can be used a lot to set up classes for different elements
+
+2.3 29/10/2020
+
+Span tag is good for styling specific words or phrases without breaking the line 

@@ -28,4 +28,15 @@ Divs - division of code. These can be used a lot to set up classes for different
 
 2.3 29/10/2020
 
-Span tag is good for styling specific words or phrases without breaking the line 
+Span tag is good for inline divisions instead of the div element which is sections. 
+
+pseudo-classes are used to add special effects 
+
+selection:pseudo-class {
+    property:value;
+
+}
+
+a:link {
+    text-decoration:none;
+}

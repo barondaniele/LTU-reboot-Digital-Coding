@@ -26,6 +26,8 @@ A block-level HTML element will always create a new line after the closing tag, 
 
 Divs - division of code. These can be used a lot to set up classes for different elements
 
+************************************************************
+
 2.3 29/10/2020
 
 Span tag is good for inline divisions instead of the div element which is sections. 
@@ -41,5 +43,13 @@ a:link {
     text-decoration:none;
 }
 
+************************************************************
+
 3.1 05/11/2020
 
+
+Alex referenced pseudo code which would be useful to look up
+
+Introduction to JS. You can comment in JS by using // and it's important to explain things
+
+We learnt how to bring a pop up when the browser loads a document and how to write to the console

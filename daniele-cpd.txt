@@ -73,3 +73,9 @@ var goodPickupLines = null;
 
 
 You can't times a string by something. You get NaN return in console.
+
+modulus is when the number is halved and what's the remainder?
+
+\ is an escape when using strings so you'd do 'I\'d like to do this string'
+
+You can set variables to strings ie var firstMessage = 'This is the message';

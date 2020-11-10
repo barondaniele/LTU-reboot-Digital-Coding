@@ -54,4 +54,22 @@ Introduction to JS. You can comment in JS by using // and it's important to expl
 
 We learnt how to bring a pop up when the browser loads a document and how to write to the console
 
-We also learnt abotu variables
+We also learnt about variables in taks 3.1.3
+
+strings: string of characters
+var userName = 'Jack Pott';
+
+Number integar or floating point
+var myAge = 32;
+
+boolean true or false 
+var catsAreBest = true;
+
+undefined value (hasn't been defined)
+var favoriteThings;
+
+null an explicity empty value
+var goodPickupLines = null;
+
+
+You can't times a string by something. You get NaN return in console.

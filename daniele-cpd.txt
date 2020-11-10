@@ -98,3 +98,21 @@ Functions can only be evoked below the declaration
 You should prefix the data type str, bln etc 
 
 when you're calling an argument it goes in ()
+
+
+We learnt about Global and Local variables
+
+Global are set outside the function and local variables are set inside a function.
+
+variables inside a function are specific to that function so can have the same name
+
+We should aim to write code so a non-coder can understand it. Name things so it makes sense
+
+We learnt about booleans
+
+== is Equals
+=== is identical to
+!= not equal
+!== Not identical
+
+

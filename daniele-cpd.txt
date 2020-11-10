@@ -84,4 +84,10 @@ You can set variables to strings ie var firstMessage = 'This is the message';
           var lastName = 'Baron';
           console.log(firstName + ' ' + lastName);
 
-          ************************************************************
+************************************************************
+
+3.2 10/11/20
+
+functions are names followed by ()
+
+Functions can only be evoked below the declaration

@@ -121,3 +121,5 @@ https://www.w3schools.com/js/js_booleans.asp
 12/11/20    
 
 Switch statements - look these up. Alex loves them.
+
+Always deal with the logic you need high up in the document

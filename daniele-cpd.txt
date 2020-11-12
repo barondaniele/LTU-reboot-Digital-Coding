@@ -115,4 +115,5 @@ We learnt about booleans
 != not equal
 !== Not identical
 
+https://www.w3schools.com/js/js_booleans.asp
 

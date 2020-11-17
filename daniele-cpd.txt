@@ -142,3 +142,5 @@ break statements don't work in if or if else statements
 strMessage is good to use 
 
 document.write publishes to the page
+
+Learnt about loops and arrays 

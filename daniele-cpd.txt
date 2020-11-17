@@ -143,4 +143,8 @@ strMessage is good to use
 
 document.write publishes to the page
 
-Learnt about loops and arrays 
+Learnt about loops,arrays and objects
+
+Arrays use []
+
+important to test code as you go. use console.log

@@ -123,3 +123,5 @@ https://www.w3schools.com/js/js_booleans.asp
 Switch statements - look these up. Alex loves them.
 
 Always deal with the logic you need high up in the document
+
+All functions  

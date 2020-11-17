@@ -117,11 +117,28 @@ We learnt about booleans
 
 https://www.w3schools.com/js/js_booleans.asp
 
-
+************************************************************
 12/11/20    
 
 Switch statements - look these up. Alex loves them.
 
 Always deal with the logic you need high up in the document
 
-All functions  
+All functions 
+************************************************************
+
+17/11/20
+
+loops - different while, for, for each 
+
+Loops executes code a number of times
+
+++ means take this variable and add one to it
+
+for loop - first bit set variable, second is the logic and third is the function
+
+break statements don't work in if or if else statements
+
+strMessage is good to use 
+
+document.write publishes to the page

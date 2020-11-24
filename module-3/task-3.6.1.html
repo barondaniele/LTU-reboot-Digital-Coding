@@ -2,34 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../css/task-3.1.css"/>
-    <title>Task 3.6.1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/task-3.1.css" />
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Javascript Task 3.6.1</h1>
+        <h1>Javascript task 3.6.1</h1>
     </header>
     <main>
-        <div id = "imageContainer">
-            <img id="changeMe" src=https://images.pexels.com/photos/219906/pexels-photo-219906.jpeg?/>
+        <div id="imageContainer">
+            <img id="changeMe" src="https://images.pexels.com/photos/3523/animal-drinking-elk-moose.jpg" />
         </div>
-         
     </main>
-    
-    <sidebar>
-        <p></p>
-  
-    </sidebar>
-   
+    <aside>
+        <a id="leedsTrinityLink" href="https://www.leedstrinity.ac.uk/">Leeds Trinity Link</a>
+        <form>
+            <input id="fiveTimesInput" name="fiveTimesInput" />
+            <button id="submitCalculator" type="submit">Calculate</button>
+            <p id="fiveTimesValue"></p>
+        </form>
+    </aside>
     <footer>
-        <p>&copy;2020</p>
+        <p>&copy; 2020</p>
     </footer>
-      <script>
+    <script>
 
-         var image =  document.getElementById('changeMe');
-
-        var newSrc = 'https://images.pexels.com/photos/3487734/pexels-photo-3487734.jpeg?';
+        var image = document.getElementById('changeMe');
+        var newSrc = 'https://images.pexels.com/photos/667201/pexels-photo-667201.jpeg';
         image.src = newSrc;
         var container = document.getElementById('imageContainer')
         container.style.border = '3px dashed red';
@@ -43,9 +43,26 @@
             console.log(event);
             alert('Hovered Over Image');
         });
-
-      </script>
         
+        var link = document.getElementById('leedsTrinityLink');
+        link.addEventListener('click',function(event){
+            event.preventDefault();
+            console.log('preventDefault being used');
+        });
+
+        var calculatorButton = document.getElementById('submitCalculator');
+        var fiveTimesValueOutput = document.getElementById('fiveTimesValue');
+        calculatorButton.addEventListener('click',function(event){
+            event.preventDefault();
+            var inputValue = document.getElementById('fiveTimesInput').value;
+            if(isNaN(inputValue) || !inputValue){
+                strMessage = 'Value entered is not a number';
+                fiveTimesValueOutput.innerHTML = strMessage;
+            } else {
+                var sum = inputValue * 5;
+                fiveTimesValueOutput.innerHTML = sum;
+            }
+        })
+    </script>
 </body>
 </html>
-

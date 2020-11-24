@@ -148,3 +148,9 @@ Learnt about loops,arrays and objects
 Arrays use []
 
 important to test code as you go. use console.log
+
+************************************************************
+
+24/11/20
+
+Learnt how to access the DOM by id and tag name

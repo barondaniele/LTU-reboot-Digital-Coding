@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/task-3.1.css"/>
+    <title>Task 3.6.1</title>
+</head>
+<body>
+    <header>
+        <h1>Javascript Task 3.6.1</h1>
+    </header>
+    <main>
+        <div id = "imageContainer">
+            <img id="changeMe" src=https://images.pexels.com/photos/219906/pexels-photo-219906.jpeg?/>
+        </div>
+         
+    </main>
+    
+    <sidebar>
+        <p></p>
+  
+    </sidebar>
+   
+    <footer>
+        <p>&copy;2020</p>
+    </footer>
+      <script>
+
+         var image =  document.getElementById('changeMe')
+         console.log(image);
+
+        var newSrc = 'https://images.pexels.com/photos/3487734/pexels-photo-3487734.jpeg?'
+        image.src = newSrc;
+        var container = document.getElementById('imageContainer').style.border = '3px dashed red';
+      </script>
+        
+</body>
+</html>
+

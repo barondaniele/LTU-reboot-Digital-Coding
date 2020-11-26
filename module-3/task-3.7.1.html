@@ -11,8 +11,8 @@
         <h1>Javascript task 3.7.1</h1>
     </header>
     <main>
-        <div class="filterContainer">
-            <button class= "buttonFilter" animal= "all">Show All</button>
+        <div class="filterContainer " >
+            <button class= "buttonFilter selectedFilter" animal= "all">Show All</button>
             <button class= "buttonFilter" animal= "dachshund">Dachshund</button>
             <button class= "buttonFilter" animal= "beetle">Beetle</button>
             <button class= "buttonFilter" animal= "rhino">Rhino</button>
@@ -20,51 +20,67 @@
         </div>
         <div class="imageFilter dachshund">
             <img src="https://images.pexels.com/photos/3085333/pexels-photo-3085333.jpeg" />
+            <h2 class = "imageTitle">Image one</h2>
         </div>
         <div class="imageFilter beetle">
             <img src="https://images.pexels.com/photos/1114318/pexels-photo-1114318.jpeg" />
+            <h2 class = "imageTitle">Image two</h2>
         </div>
         <div class="imageFilter rhino">
             <img src="https://images.pexels.com/photos/1145513/pexels-photo-1145513.jpeg" />
+            <h2 class = "imageTitle">Image three</h2>
         </div>
         <div class="imageFilter turtle">
             <img src="https://images.pexels.com/photos/1817048/pexels-photo-1817048.jpeg" />
+            <h2 class = "imageTitle">Image four</h2>
         </div>
         <div class="imageFilter dachshund">
             <img src="https://images.pexels.com/photos/257519/pexels-photo-257519.jpeg" />
+            <h2 class = "imageTitle">Image five</h2>
         </div>
         <div class="imageFilter beetle">
             <img src="https://images.pexels.com/photos/1126775/pexels-photo-1126775.jpeg" />
+            <h2 class = "imageTitle">Image six</h2>
         </div>
         <div class="imageFilter rhino">
             <img src="https://images.pexels.com/photos/5461818/pexels-photo-5461818.jpeg" />
+            <h2 class = "imageTitle">Image seven</h2>
         </div>
         <div class="imageFilter turtle">
             <img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg" />
+            <h2 class = "imageTitle">Image eight</h2>
         </div>
         <div class="imageFilter dachshund">
             <img src="https://images.pexels.com/photos/4148014/pexels-photo-4148014.jpeg" />
+            <h2 class = "imageTitle">Image nine</h2>
         </div>
         <div class="imageFilter beetle">
             <img src="https://images.pexels.com/photos/121472/ladybug-beetle-coccinellidae-insect-121472.jpeg" />
+            <h2 class = "imageTitle">Image ten</h2>
         </div>
         <div class="imageFilter rhino">
             <img src="https://images.pexels.com/photos/542405/pexels-photo-542405.jpeg" />
+            <h2 class = "imageTitle">Image evelen</h2>
         </div>
         <div class="imageFilter turtle">
             <img src="https://images.pexels.com/photos/2422913/pexels-photo-2422913.jpeg" />
+            <h2 class = "imageTitle">Image twelve</h2>
         </div>
         <div class="imageFilter dachshund">
             <img src="https://images.pexels.com/photos/4107056/pexels-photo-4107056.jpeg" />
+            <h2 class = "imageTitle">Image thirteen</h2>
         </div>
         <div class="imageFilter beetle">
             <img src="https://images.pexels.com/photos/53988/stag-beetle-great-stag-beetle-lucanus-cervus-beetle-53988.jpeg" />
+            <h2 class = "imageTitle">Image fourteen</h2>
         </div>
         <div class="imageFilter rhino">
             <img src="https://images.pexels.com/photos/4394472/pexels-photo-4394472.jpeg" />
+            <h2 class = "imageTitle">Image fifteen</h2>
         </div>
         <div class="imageFilter turtle">
             <img src="https://images.pexels.com/photos/109892/pexels-photo-109892.jpeg" />
+            <h2 class = "imageTitle">Image sixteen</h2>
         </div>
     </main>
     
@@ -86,6 +102,10 @@
             console.log(currentButton);
             //addEventListener for a click event
             currentButton.addEventListener("click", function() {
+
+                var selectedFilter = document.querySelector('.selectedFilter');
+                selectedFilter.classList.remove("selectedFilter");
+                this.classList.add("selectedFilter");
                 //getting the animal attribute from the button html. You do this using 'this'
                 var animal = this.getAttribute("animal");
                 //testing the animal variable

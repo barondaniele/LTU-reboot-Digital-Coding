@@ -21,11 +21,10 @@ img{
 }
 
 .imageFilter{
-    width:200px;
-    float:left;
-    height: 150px;
-    margin: 1px;
     
+    float:left;
+    margin: 1px;
+    max-width: 30%;
     
 }
 
@@ -36,4 +35,8 @@ img{
 
 .filterContainer{
     margin-bottom:50px;
+}
+
+.selectedFilter {
+    border: 3px solid red ;
 }

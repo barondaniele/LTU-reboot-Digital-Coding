@@ -23,10 +23,15 @@ img{
 .imageFilter{
     width:200px;
     float:left;
+    height: 150px;
+    margin: 1px;
+    
+    
 }
 
 .imageFilter img{
     max-width:100%;
+   
 }
 
 .filterContainer{

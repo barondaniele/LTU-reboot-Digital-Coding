@@ -16,10 +16,10 @@
             <button class= "buttonFilter" animal= "dachshund">Dachshund</button>
             <button class= "buttonFilter" animal= "beetle">Beetle</button>
             <button class= "buttonFilter" animal= "rhino">Rhino</button>
-            <button class= "buttonFilter" animal = "turtle">Turtle</button>
+            <button class= "buttonFilter" animal= "turtle">Turtle</button>
         </div>
         <div class="imageFilter dachshund">
-            <img src="https://images.pexels.com/photos/1139794/pexels-photo-1139794.jpeg" />
+            <img src="https://images.pexels.com/photos/3085333/pexels-photo-3085333.jpeg" />
         </div>
         <div class="imageFilter beetle">
             <img src="https://images.pexels.com/photos/1114318/pexels-photo-1114318.jpeg" />
@@ -43,7 +43,7 @@
             <img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg" />
         </div>
         <div class="imageFilter dachshund">
-            <img src="https://images.pexels.com/photos/3104709/pexels-photo-3104709.jpeg" />
+            <img src="https://images.pexels.com/photos/4148014/pexels-photo-4148014.jpeg" />
         </div>
         <div class="imageFilter beetle">
             <img src="https://images.pexels.com/photos/121472/ladybug-beetle-coccinellidae-insect-121472.jpeg" />
@@ -55,7 +55,7 @@
             <img src="https://images.pexels.com/photos/2422913/pexels-photo-2422913.jpeg" />
         </div>
         <div class="imageFilter dachshund">
-            <img src="https://images.pexels.com/photos/733835/pexels-photo-733835.jpeg" />
+            <img src="https://images.pexels.com/photos/4107056/pexels-photo-4107056.jpeg" />
         </div>
         <div class="imageFilter beetle">
             <img src="https://images.pexels.com/photos/53988/stag-beetle-great-stag-beetle-lucanus-cervus-beetle-53988.jpeg" />
@@ -72,26 +72,54 @@
         <p>&copy; 2020</p>
     </footer>
     <script>
+        //Getting all of the html elements with the class buttonFilter
         var buttons = document.querySelectorAll(".buttonFilter");
+        //Getting all of the html elements with the class imageFilter
+        var images = document.querySelectorAll(".imageFilter");
+        //testing the buttons were selected
         console.log(buttons);
         //LOOP through all the buttons
         for(buttonCounter = 0; buttonCounter < buttons.length; buttonCounter ++){
+            //selecting the current button based on the loop counter
             var currentButton = buttons[buttonCounter];
-            console.log(buttons);
+            //testing the current button is selected correctly
+            console.log(currentButton);
             //addEventListener for a click event
             currentButton.addEventListener("click", function() {
-                console.log('click');
+                //getting the animal attribute from the button html. You do this using 'this'
+                var animal = this.getAttribute("animal");
+                //testing the animal variable
+                console.log(animal);
                 //LOOP through all the images
+                    for(imageCounter = 0; imageCounter < images.length; imageCounter++){
+                    //selecting the image based on the image counter
                     //IF the animal variable = all
+                        var currentImage  = images[imageCounter];
+                        if(animal== 'all') {
                         //show all images
-                    //ELSE
+                            currentImage.style.display='block';
+                            //inline style/css
+                        }
+                        //ELSE
+                        else { 
+                            if(currentImage.classList.contains(animal)) {
+                                //show image
+                                currentImage.style.display='block';
+                            }
+
+                            else { 
+                                //hide image
+                                currentImage.style.display = 'none';
+                            }
+                        }
                         //IF the image has the same class as the animal variable 
                             //show image
                         //ELSE
                             //hide image
-
-                        });
+                                
                     }
+            });
+        }
     </script>
 </body>
 </html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/task-3.1.css" />
+    <title>Task 3.7.1</title>
+</head>
+<body>
+    <header>
+        <h1>Javascript task 3.7.1</h1>
+    </header>
+    <main>
+        <div class="filterContainer">
+            <button class= "buttonFilter" animal= "all">Show All</button>
+            <button class= "buttonFilter" animal= "dachshund">Dachshund</button>
+            <button class= "buttonFilter" animal= "beetle">Beetle</button>
+            <button class= "buttonFilter" animal= "rhino">Rhino</button>
+            <button class= "buttonFilter" animal = "turtle">Turtle</button>
+        </div>
+        <div class="imageFilter dachshund">
+            <img src="https://images.pexels.com/photos/1139794/pexels-photo-1139794.jpeg" />
+        </div>
+        <div class="imageFilter beetle">
+            <img src="https://images.pexels.com/photos/1114318/pexels-photo-1114318.jpeg" />
+        </div>
+        <div class="imageFilter rhino">
+            <img src="https://images.pexels.com/photos/1145513/pexels-photo-1145513.jpeg" />
+        </div>
+        <div class="imageFilter turtle">
+            <img src="https://images.pexels.com/photos/1817048/pexels-photo-1817048.jpeg" />
+        </div>
+        <div class="imageFilter dachshund">
+            <img src="https://images.pexels.com/photos/257519/pexels-photo-257519.jpeg" />
+        </div>
+        <div class="imageFilter beetle">
+            <img src="https://images.pexels.com/photos/1126775/pexels-photo-1126775.jpeg" />
+        </div>
+        <div class="imageFilter rhino">
+            <img src="https://images.pexels.com/photos/5461818/pexels-photo-5461818.jpeg" />
+        </div>
+        <div class="imageFilter turtle">
+            <img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg" />
+        </div>
+        <div class="imageFilter dachshund">
+            <img src="https://images.pexels.com/photos/3104709/pexels-photo-3104709.jpeg" />
+        </div>
+        <div class="imageFilter beetle">
+            <img src="https://images.pexels.com/photos/121472/ladybug-beetle-coccinellidae-insect-121472.jpeg" />
+        </div>
+        <div class="imageFilter rhino">
+            <img src="https://images.pexels.com/photos/542405/pexels-photo-542405.jpeg" />
+        </div>
+        <div class="imageFilter turtle">
+            <img src="https://images.pexels.com/photos/2422913/pexels-photo-2422913.jpeg" />
+        </div>
+        <div class="imageFilter dachshund">
+            <img src="https://images.pexels.com/photos/733835/pexels-photo-733835.jpeg" />
+        </div>
+        <div class="imageFilter beetle">
+            <img src="https://images.pexels.com/photos/53988/stag-beetle-great-stag-beetle-lucanus-cervus-beetle-53988.jpeg" />
+        </div>
+        <div class="imageFilter rhino">
+            <img src="https://images.pexels.com/photos/4394472/pexels-photo-4394472.jpeg" />
+        </div>
+        <div class="imageFilter turtle">
+            <img src="https://images.pexels.com/photos/109892/pexels-photo-109892.jpeg" />
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2020</p>
+    </footer>
+    <script>
+        var buttons = document.querySelectorAll(".buttonFilter");
+        console.log(buttons);
+        //LOOP through all the buttons
+        for(buttonCounter = 0; buttonCounter < buttons.length; buttonCounter ++){
+            var currentButton = buttons[buttonCounter];
+            console.log(buttons);
+            //addEventListener for a click event
+            currentButton.addEventListener("click", function() {
+                console.log('click');
+                //LOOP through all the images
+                    //IF the animal variable = all
+                        //show all images
+                    //ELSE
+                        //IF the image has the same class as the animal variable 
+                            //show image
+                        //ELSE
+                            //hide image
+
+                        });
+                    }
+    </script>
+</body>
+</html>

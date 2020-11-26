@@ -165,3 +165,10 @@ console
 event 
 
 These things are just built into Javascript
+
+
+************************************************************
+
+26/11
+
+QueryselectorAll looks at every item until it finds the thing you'rel ooking for 

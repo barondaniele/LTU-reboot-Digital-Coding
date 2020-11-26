@@ -159,3 +159,9 @@ Learnt how to access the DOM by id and tag name
 The thing that happens is inside {}
 
 NaN is a not a number , useful tool
+
+innerHTML 
+console
+event 
+
+These things are just built into Javascript
